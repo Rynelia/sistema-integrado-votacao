@@ -40,35 +40,64 @@
     <main>
         <div class="home-container">
             <div class="card">
-                <h1>AMBIENTE DE VOTAÇÃO</h1>
-                <p>
-                    Esta interface exibe todos os processos eleitorais em andamento nos quais você está cadastrado como
-                    eleitor.
-                    Observe que:
-                </p>
-                <ul class="home-ul">
-                    <li class="home-li">
-                        É possível estar vinculado ao mesmo processo em mais de uma categoria como <b>ALUNO</b>
-                        e <b>SERVIDOR ADMINISTRATIVO</b> simultaneamente.
-                    </li>
-                    <li class="home-li">
-                        Cada processo exibirá o botão <b>VOTAR</b> para acessar a cédula eleitoral.
-                    </li>
-                    <li class="home-li">
-                        Os prazos são rigorosos: o sistema <b>bloqueará</b> o acesso no horário de encerramento.
-                    </li>
-                </ul>
-                <h2>SEGURANÇA DO SEU VOTO</h2>
-                <p>
-                    Sua identidade é verificada apenas no acesso e o registro de voto não contém informações que possam
-                    vinculá-lo
-                    às suas escolhas, garantindo seu sigilo absoluto para exercício livre do seu direito.
-                </p>
+                <div class="voting-section">
+                    <div class="voting-text">
+                        <h1>AMBIENTE DE VOTAÇÃO</h1>
+                        <p>
+                            Esta interface exibe todos os processos eleitorais em andamento nos quais você está
+                            cadastrado como
+                            eleitor.
+                            Observe que:
+                        </p>
+                        <ul class="home-ul">
+                            <li class="home-li">
+                                Cada processo exibirá o botão <b>VOTAR</b> para acessar a cédula eleitoral.
+                            </li>
+                            <li class="home-li">
+                                Os prazos são rigorosos: o sistema <b>bloqueará</b> o acesso no horário de encerramento.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="voting-svg">
+                        <img src="ImagensPI/Voting-amico.svg" alt="Voting illustration">
+                    </div>
+                </div>
+                <div class="security-section">
+                    <h2>SEGURANÇA DO SEU VOTO</h2>
+                    <p>
+                        Sua identidade é verificada apenas no acesso e o registro de voto não contém informações que
+                        possam
+                        vinculá-lo
+                        às suas escolhas, garantindo seu sigilo absoluto para exercício livre do seu direito.
+                    </p>
+                </div>
+
                 <div class="alert">
                     ⚠️ ATENÇÃO: Verifique os prazos de cada edital para não perder seu direito de voto!
                 </div>
             </div>
         </div>
+
+        </div>
+        </div>
+
+        <div class="container-editais">
+            <div class="card-editais">
+                <h1>EDITAIS ABERTOS PARA INSCRIÇÃO</h1>
+                <p>
+                    Clique no botão "QUERO ME INSCREVER" para ver as regras.
+                </p>
+            </div>
+
+            <div class="container-button-editais">
+                <button style="pointer-events: none; opacity: 0.6; cursor: not-allowed;" class="botao">QUERO ME
+                    INSCREVER</button>
+                <a href="quero-votar.html" class="botao">QUERO VOTAR</a>
+                <button style="pointer-events: none; opacity: 0.6; cursor: not-allowed;"
+                    class="botao botao-grande">ACOMPANHAR INSCRIÇÃO</button>
+            </div>
+        </div>
+
     </main>
 
     <!-- FOOTER -->

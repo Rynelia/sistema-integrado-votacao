@@ -248,14 +248,10 @@ footer {
     }
 }
 
-/* HOME */
 .home-container {
     max-width: 900px;
-    padding: 20px;
-    align-items: center;
-    justify-items: center;
-    display: flex;
-    margin: auto;
+    padding: 30px 20px;
+    margin: 0 auto;
 }
 
 .card {
@@ -264,23 +260,18 @@ footer {
     padding: 40px;
     color: white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    align-items: center;
-    justify-items: center;
+    margin-bottom: 40px;
 }
 
 .card h1 {
     font-size: 32px;
     margin-bottom: 15px;
-    align-items: center;
-    justify-items: center;
 }
 
 .card h2 {
     font-size: 26px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    align-items: center;
-    justify-items: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 .card p {
@@ -293,7 +284,6 @@ footer {
 .home-ul {
     margin-left: 20px;
     margin-bottom: 20px;
-    text-align: justify;
 }
 
 .home-li {
@@ -302,8 +292,7 @@ footer {
     text-align: justify;
 }
 
-strong {
-    color: #000000;
+b {
     font-weight: bold;
 }
 
@@ -315,6 +304,33 @@ strong {
     font-weight: bold;
     margin-top: 25px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.voting-section {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.voting-text {
+    flex: 1;
+}
+
+.voting-svg {
+    flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voting-svg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.security-section {
+    margin-top: 0px;
+    padding-top: 30px;
 }
 
 /* HOME */
@@ -1006,7 +1022,6 @@ input:focus {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    /* Increased space between buttons */
     margin-top: 15px;
 }
 
