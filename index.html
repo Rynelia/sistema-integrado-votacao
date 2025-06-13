@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <!-- NAVBAR -->
     <header>
         <nav class="navbar">
@@ -35,21 +34,69 @@
             </p>
         </section>
 
-        <section class="logo-fatec">
-            <img src="images/logo-fatec_itapira.png" alt="Logo FATEC Itapira">
-        </section>
+        <div class="content-container">
+            <!-- imagem esquerda, texto direita -->
+            <div class="content-row">
+                <div class="image-section">
+                    <img src="ImagensPI/Selecting team-cuate.svg" alt="Ilustração de votação">
+                </div>
 
-        <section class="form-wrapper">
-            <form action="email.php" method="get" class="form-container">
-                <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
-                <button class="send-button" type="submit">
-                    <img src="images/enviar.png" alt="Enviar">
-                </button>
-            </form>
-            <p class="description">
-                Insira seu e-mail para receber informações sobre novas eleições da sua FATEC!
-            </p>
-        </section>
+                <div class="text-section">
+                    <h2>Deseja se Candidatar?</h2>
+                    <p>Você deve possuir credencial ativa no sistema SIV e estar apto às regras específicas do edital. A
+                        candidatura está disponível para todos os alunos regularmente matriculados e sem pendências
+                        disciplinares.</p>
+                    <p>Para iniciar o processo, acesse o portal do aluno clicando em "Login"</p>
+                </div>
+            </div>
+
+            <!-- texto esquerda, imagem direita -->
+            <div class="content-row reverse-row">
+                <div class="image-section">
+                    <img src="ImagensPI/Political Candidate-bro.svg" alt="Como se Candidatar?">
+                </div>
+
+                <div class="text-section">
+                    <h2>Como se Candidatar?</h2>
+                    <p>O sistema SIV garante transparência e segurança em todo o processo eleitoral. Para se candidatar
+                        siga essas etapas:
+                    </p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Acesse o sistema com suas credenciais SIV.</li>
+                        <li><i class="fas fa-check-circle"></i> Clique em “Inscrição”</li>
+                        <li><i class="fas fa-check-circle"></i> Insira e confirme seus Dados</li>
+                    </ul>
+                    <p style="opacity: 0.7;">O botão "Inscrição" estará disponível apenas durante o período de
+                        inscrições.</p>
+                </div>
+                <div class="content-row">
+                    <div class="image-section">
+                        <img src="ImagensPI/Active Support-amico.svg" alt="Ilustração de suporte">
+                    </div>
+
+                    <div class="text-section">
+                        <h2>Suporte e Dúvidas</h2>
+                        <p>Encontrou dificuldades no acesso ou esqueceu suas credenciais?</p>
+                        <p>Clique no botão abaixo para maior suporte</p>
+                    </div>
+                </div>
+            </div>
+
+            <section class="logo-fatec">
+                <img src="images/logo-fatec_itapira.png" alt="Logo FATEC Itapira">
+            </section>
+
+            <section class="form-wrapper">
+                <form action="email.php" method="get" class="form-container">
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
+                    <button class="send-button" type="submit">
+                        <img src="images/enviar.png" alt="Enviar">
+                    </button>
+                </form>
+                <p class="description">
+                    Insira seu e-mail para receber informações sobre novas eleições da sua FATEC!
+                </p>
+            </section>
     </main>
 
     <!-- FOOTER -->
